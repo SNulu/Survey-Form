@@ -7,11 +7,18 @@
   <body>
     <h1 id="title"> Survey Form </h1>
     <div>
-      <p id="description">Your Feedback in regards to Freecodecamp</p>
-      <form id="Survey-Form" method="GET">
-      Name: <input type="text"><br>
-      Email Address: <input type="text"><br>
-      <input type="submit" value="Submit">
+      <p id="description">Your Feedback regards to Freecodecamp</p>
+      <form id="Survey-Form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+
+        <label id="Name" for="name">Name: </label>
+        <input type="text" required placeholder=""/>
+        <br>
+        <label ide="Email">Email</label>
+        <input type="text">
+        <br>
+        <label id="Number" for="number">Number: </label>
+        <input type="text" required placeholder=""/>
+        <input type="submit" value="Submit">
       </form>
     </div>
   </body>
